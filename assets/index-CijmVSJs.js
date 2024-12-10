@@ -264,7 +264,7 @@ Error generating stack: `+l.message+`
     align-items: center;
     gap: 8px;
     z-index: 100;
-    margin-top: -20px;
+    margin-top: -18px;
 
     .page1, .page2, .page3{
       width: 25px;
@@ -284,8 +284,14 @@ Error generating stack: `+l.message+`
     padding-top: 100px;
     
     .carousel-navigation {
-      gap: 275px;
+      gap: 305px;
       opacity: 1;
+
+      button {
+        img {
+          width: 35px;
+        }
+      }
     }
   }
 `,jh=ze.div`
@@ -349,12 +355,13 @@ Error generating stack: `+l.message+`
 
   @media screen and (max-width: 540px) {
     .treinador, .developer{
-      width: 22em;
-      height: 680px;
+      width: 23em;
+      height: 610px;
 
       h3 {
         font-size: 26px;
         text-align: center;
+        margin-top: 10px;
       } 
 
       h4 {
@@ -362,22 +369,23 @@ Error generating stack: `+l.message+`
       }
 
       p {
-        width: 19.37em;
+        width: 21em;
         font-size: 14px;
+        margin-top: -15px;
       }
     }
 
     .treinador.active {
       opacity: 1;
-      margin-left: 392px;
+      margin-left: 408px;
     }
 
     .developer.active {
       opacity: 1;
-      margin-left: -392px;
+      margin-left: -408px;
     }
   }
-`,Eh="/portifolio/assets/arrow-left.png",Ch="/portifolio/assets/arrow-right.png";function Nh(){const[o,s]=fe.useState(0),[a,f]=fe.useState(!1),h=()=>{s(R=>(R+1)%2)},w=()=>{s(R=>(R-1+2)%2)},S=fe.useRef(null),{ref:_,inView:E}=dr({threshold:.1});return fe.useEffect(()=>{f(E)},[E]),c.jsxs(kh,{id:"expertise",ref:S,children:[c.jsx(Sh,{className:`title ${E?"animate-left":""}`,ref:_,children:c.jsx("h2",{children:"Experiências Profissionais"})}),c.jsxs("div",{className:`experiences ${a?"jump":""}`,ref:_,children:[c.jsxs(jh,{children:[c.jsxs("div",{className:`treinador ${o===0?"active":""}`,children:[c.jsx("h3",{children:"Personal Trainer"}),c.jsx("h4",{children:"Bacharel em Educação Física – Centro Universitário de João Pessoa UNIPÊ | de 2018 à 2021."}),c.jsx("p",{children:"Treinador com mais de 4 anos de experiência, incluindo estágio e atuação profissional, especializado no desenvolvimento de programas de treino, focados em objetivos como hipertrofia, emagrecimento e melhora de performance."}),c.jsx("p",{children:"Amplo domínio de técnicas avançadas de periodização e adaptação de treinos para diferentes níveis, garantindo eficiência e segurança. Experiência prática no acompanhamento de alunos em academias e consultorias online, com foco na evolução contínua e no alcance de metas dentro de prazos definidos. Além disso, sou atleta de fisiculturismo, o que me proporciona conhecimento aprofundado teórico e prático sobre hipertrofia, emagrecimento e performance."})]}),c.jsxs("div",{className:`developer ${o===1?"active":""}`,children:[c.jsx("h3",{children:"Desenvolvedor Web (Front-End)"}),c.jsx("h4",{children:"Programação e Desenvolvimento Web pela DevClub | Outubro 2024 - Cursando"}),c.jsx("p",{children:"Profissional em transição de carreira, com sólida experiência como Personal Trainer, agora dedicado à área de Desenvolvimento Web. Minha experiência como treinador me proporcionou habilidades valiosas. Essas competências me ajudam a criar soluções eficientes para os desafios que surgem diariamente, além de compreender melhor as necessidades dos usuários e clientes."}),c.jsx("p",{children:"Tenho experiência em tecnologias front-end, incluindo HTML5, CSS4, JavaScript e ReactJS, para o desenvolvimento de projetos responsivos e dinâmicos. Além disso, possuo conhecimentos básicos em back-end, abrangendo Node.js, Docker, SQL e MySQL."})]}),c.jsxs("div",{className:"carousel-navigation",children:[c.jsx("button",{onClick:w,children:c.jsx("img",{src:Eh,alt:"arrow left",className:"arrow-left"})}),c.jsx("button",{onClick:h,children:c.jsx("img",{src:Ch,alt:"arrow right",className:"arrow-right"})})]})]}),c.jsxs("div",{className:"pages-info",children:[c.jsx("div",{className:`page1 ${o===0?"active":""}`}),c.jsx("div",{className:`page2 ${o===1?"active":""}`})]})]})]})}const _h=ze.div`
+`,Eh="/portifolio/assets/arrow-left.png",Ch="/portifolio/assets/arrow-right.png";function Nh(){const[o,s]=fe.useState(0),[a,f]=fe.useState(!1),h=()=>{s(R=>(R+1)%2)},w=()=>{s(R=>(R-1+2)%2)},S=fe.useRef(null),{ref:_,inView:E}=dr({threshold:.1});return fe.useEffect(()=>{f(E)},[E]),c.jsxs(kh,{id:"expertise",ref:S,children:[c.jsx(Sh,{className:`title ${E?"animate-left":""}`,ref:_,children:c.jsx("h2",{children:"Experiências Profissionais"})}),c.jsxs("div",{className:`experiences ${a?"jump":""}`,ref:_,children:[c.jsxs(jh,{children:[c.jsxs("div",{className:`treinador ${o===0?"active":""}`,children:[c.jsx("h3",{children:"Personal Trainer"}),c.jsx("h4",{children:"Bacharel em Educação Física – Centro Universitário de João Pessoa UNIPÊ | de 2018 à 2021."}),c.jsx("p",{children:"Treinador com mais de 4 anos de experiência, incluindo estágio e atuação profissional, especializado no desenvolvimento de programas de treino, focados em objetivos como hipertrofia, emagrecimento e melhora de performance."}),c.jsx("p",{children:"Amplo domínio de técnicas avançadas de periodização e adaptação de treinos para diferentes níveis, garantindo eficiência e segurança. Experiência prática no acompanhamento de alunos em academias e consultorias online, com foco na evolução contínua e no alcance de metas dentro de prazos definidos. Além disso, sou atleta de fisiculturismo, o que me proporciona conhecimento aprofundado sobre hipertrofia, emagrecimento e performance."})]}),c.jsxs("div",{className:`developer ${o===1?"active":""}`,children:[c.jsx("h3",{children:"Desenvolvedor Web (Front-End)"}),c.jsx("h4",{children:"Programação e Desenvolvimento Web pela DevClub | Outubro 2024 - Cursando"}),c.jsx("p",{children:"Profissional em transição de carreira, com sólida experiência como Personal Trainer, agora dedicado à área de Desenvolvimento Web. Minha experiência como treinador me proporcionou habilidades valiosas. Essas competências me ajudam a criar soluções eficientes para os desafios que surgem diariamente, além de compreender melhor as necessidades dos usuários e clientes."}),c.jsx("p",{children:"Tenho experiência em tecnologias front-end, incluindo HTML5, CSS4, JavaScript e ReactJS, para o desenvolvimento de projetos responsivos e dinâmicos. Além disso, possuo conhecimentos básicos em back-end, abrangendo Node.js, Docker, SQL e MySQL."})]}),c.jsxs("div",{className:"carousel-navigation",children:[c.jsx("button",{onClick:w,children:c.jsx("img",{src:Eh,alt:"arrow left",className:"arrow-left"})}),c.jsx("button",{onClick:h,children:c.jsx("img",{src:Ch,alt:"arrow right",className:"arrow-right"})})]})]}),c.jsxs("div",{className:"pages-info",children:[c.jsx("div",{className:`page1 ${o===0?"active":""}`}),c.jsx("div",{className:`page2 ${o===1?"active":""}`})]})]})]})}const _h=ze.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -432,7 +440,7 @@ Error generating stack: `+l.message+`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 130px;
+  padding-top: 110px;
   padding-bottom: 100px;
 
   .contact-local {
@@ -473,8 +481,8 @@ Error generating stack: `+l.message+`
       line-height: 20px;
 
       width: 500px;
-      height: 213px;
-      margin-top: 14px;
+      height: 227px;
+      margin-top: 15px;
       padding: 5px 10px 0 10px;
     }
   }
@@ -488,6 +496,12 @@ Error generating stack: `+l.message+`
       opacity: 1;
       transform: scale(1);
     }
+
+    p {
+      opacity: 0.5;
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
   .to-send {
@@ -498,7 +512,7 @@ Error generating stack: `+l.message+`
 
   @media screen and (max-width: 540px) {
     display: flex;
-    padding-top: 115px;
+    padding-top: 100px;
 
     .contact-local {
       display: flex;
@@ -599,7 +613,7 @@ Error generating stack: `+l.message+`
       width: 22em;
     }
   }
-`;class ri{constructor(s=0,a="Network Error"){this.status=s,this.text=a}}const zh=()=>{if(!(typeof localStorage>"u"))return{get:o=>Promise.resolve(localStorage.getItem(o)),set:(o,s)=>Promise.resolve(localStorage.setItem(o,s)),remove:o=>Promise.resolve(localStorage.removeItem(o))}},$e={origin:"https://api.emailjs.com",blockHeadless:!1,storageProvider:zh()},ta=o=>o?typeof o=="string"?{publicKey:o}:o.toString()==="[object Object]"?o:{}:{},Th=(o,s="https://api.emailjs.com")=>{if(!o)return;const a=ta(o);$e.publicKey=a.publicKey,$e.blockHeadless=a.blockHeadless,$e.storageProvider=a.storageProvider,$e.blockList=a.blockList,$e.limitRate=a.limitRate,$e.origin=a.origin||s},Kd=async(o,s,a={})=>{const f=await fetch($e.origin+o,{method:"POST",headers:a,body:s}),h=await f.text(),w=new ri(f.status,h);if(f.ok)return w;throw w},Yd=(o,s,a)=>{if(!o||typeof o!="string")throw"The public key is required. Visit https://dashboard.emailjs.com/admin/account";if(!s||typeof s!="string")throw"The service ID is required. Visit https://dashboard.emailjs.com/admin";if(!a||typeof a!="string")throw"The template ID is required. Visit https://dashboard.emailjs.com/admin/templates"},Lh=o=>{if(o&&o.toString()!=="[object Object]")throw"The template params have to be the object. Visit https://www.emailjs.com/docs/sdk/send/"},Gd=o=>o.webdriver||!o.languages||o.languages.length===0,Xd=()=>new ri(451,"Unavailable For Headless Browser"),Ih=(o,s)=>{if(!Array.isArray(o))throw"The BlockList list has to be an array";if(typeof s!="string")throw"The BlockList watchVariable has to be a string"},Oh=o=>{var s;return!((s=o.list)!=null&&s.length)||!o.watchVariable},Mh=(o,s)=>o instanceof FormData?o.get(s):o[s],Jd=(o,s)=>{if(Oh(o))return!1;Ih(o.list,o.watchVariable);const a=Mh(s,o.watchVariable);return typeof a!="string"?!1:o.list.includes(a)},qd=()=>new ri(403,"Forbidden"),Dh=(o,s)=>{if(typeof o!="number"||o<0)throw"The LimitRate throttle has to be a positive number";if(s&&typeof s!="string")throw"The LimitRate ID has to be a non-empty string"},Fh=async(o,s,a)=>{const f=Number(await a.get(o)||0);return s-Date.now()+f},Zd=async(o,s,a)=>{if(!s.throttle||!a)return!1;Dh(s.throttle,s.id);const f=s.id||o;return await Fh(f,s.throttle,a)>0?!0:(await a.set(f,Date.now().toString()),!1)},bd=()=>new ri(429,"Too Many Requests"),Ah=async(o,s,a,f)=>{const h=ta(f),w=h.publicKey||$e.publicKey,S=h.blockHeadless||$e.blockHeadless,_=h.storageProvider||$e.storageProvider,E={...$e.blockList,...h.blockList},R={...$e.limitRate,...h.limitRate};return S&&Gd(navigator)?Promise.reject(Xd()):(Yd(w,o,s),Lh(a),a&&Jd(E,a)?Promise.reject(qd()):await Zd(location.pathname,R,_)?Promise.reject(bd()):Kd("/api/v1.0/email/send",JSON.stringify({lib_version:"4.4.1",user_id:w,service_id:o,template_id:s,template_params:a}),{"Content-type":"application/json"}))},$h=o=>{if(!o||o.nodeName!=="FORM")throw"The 3rd parameter is expected to be the HTML form element or the style selector of the form"},Uh=o=>typeof o=="string"?document.querySelector(o):o,Vh=async(o,s,a,f)=>{const h=ta(f),w=h.publicKey||$e.publicKey,S=h.blockHeadless||$e.blockHeadless,_=$e.storageProvider||h.storageProvider,E={...$e.blockList,...h.blockList},R={...$e.limitRate,...h.limitRate};if(S&&Gd(navigator))return Promise.reject(Xd());const I=Uh(a);Yd(w,o,s),$h(I);const z=new FormData(I);return Jd(E,z)?Promise.reject(qd()):await Zd(location.pathname,R,_)?Promise.reject(bd()):(z.append("lib_version","4.4.1"),z.append("service_id",o),z.append("template_id",s),z.append("user_id",w),Kd("/api/v1.0/email/send-form",z))},Bh={init:Th,send:Ah,sendForm:Vh,EmailJSResponseStatus:ri};function Hh(){const[o,s]=fe.useState(""),[a,f]=fe.useState(""),[h,w]=fe.useState(""),[S,_]=fe.useState(""),E=fe.useRef(null),{ref:R,inView:I}=dr({threshold:.1});function z(L){if(L.preventDefault(),o===""||a===""||S===""){alert("Preencha todos os campos");return}const V={name:o,email:a,telefone:h,message:S};Bh.send("service_za4aivk","template_x61afyb",V,"jkB5CHRiHgFKdHByN").then(Y=>{console.log("EMAIL ENVIADO!",Y.status,Y.text),s(""),f(""),w(""),_("")}).catch(Y=>{console.log("Erro: ",Y)})}return c.jsxs(Ph,{id:"contact",ref:E,onSubmit:z,children:[c.jsx(Rh,{className:`title ${I?"animate-left":""}`,ref:R,children:c.jsx("h2",{children:"Entre em Contato"})}),c.jsxs("div",{className:`contact-local ${I?"animate-jump":""}`,ref:R,children:[c.jsxs("div",{className:"inputs",children:[c.jsxs("div",{children:[c.jsxs(Ms,{children:["Nome ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"text",placeholder:"Nome e sobremone",id:"inputName",onChange:L=>s(L.target.value),value:o})]}),c.jsxs("div",{children:[c.jsxs(Ms,{children:["E-mail ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"text",placeholder:"E-mail para contato",id:"inputEmail",onChange:L=>f(L.target.value),value:a})]}),c.jsxs("div",{children:[c.jsxs(Ms,{children:["Telefone ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"tel",placeholder:"(00) 00000-0000",id:"inputTel",onChange:L=>w(L.target.value),value:h})]})]}),c.jsx("div",{className:"text-area",children:c.jsx("textarea",{name:"message",placeholder:"Digite aqui a sua mensagem...",onChange:L=>_(L.target.value),value:S})})]}),c.jsx("div",{className:`submit-button ${I?"animate-jump":""}`,ref:R,children:c.jsx(Lt,{children:c.jsx("button",{className:"button-one to-send",type:"submit",children:"Enviar"})})})]})}const Wh=ze.nav`
+`;class ri{constructor(s=0,a="Network Error"){this.status=s,this.text=a}}const zh=()=>{if(!(typeof localStorage>"u"))return{get:o=>Promise.resolve(localStorage.getItem(o)),set:(o,s)=>Promise.resolve(localStorage.setItem(o,s)),remove:o=>Promise.resolve(localStorage.removeItem(o))}},$e={origin:"https://api.emailjs.com",blockHeadless:!1,storageProvider:zh()},ta=o=>o?typeof o=="string"?{publicKey:o}:o.toString()==="[object Object]"?o:{}:{},Th=(o,s="https://api.emailjs.com")=>{if(!o)return;const a=ta(o);$e.publicKey=a.publicKey,$e.blockHeadless=a.blockHeadless,$e.storageProvider=a.storageProvider,$e.blockList=a.blockList,$e.limitRate=a.limitRate,$e.origin=a.origin||s},Kd=async(o,s,a={})=>{const f=await fetch($e.origin+o,{method:"POST",headers:a,body:s}),h=await f.text(),w=new ri(f.status,h);if(f.ok)return w;throw w},Yd=(o,s,a)=>{if(!o||typeof o!="string")throw"The public key is required. Visit https://dashboard.emailjs.com/admin/account";if(!s||typeof s!="string")throw"The service ID is required. Visit https://dashboard.emailjs.com/admin";if(!a||typeof a!="string")throw"The template ID is required. Visit https://dashboard.emailjs.com/admin/templates"},Lh=o=>{if(o&&o.toString()!=="[object Object]")throw"The template params have to be the object. Visit https://www.emailjs.com/docs/sdk/send/"},Gd=o=>o.webdriver||!o.languages||o.languages.length===0,Xd=()=>new ri(451,"Unavailable For Headless Browser"),Ih=(o,s)=>{if(!Array.isArray(o))throw"The BlockList list has to be an array";if(typeof s!="string")throw"The BlockList watchVariable has to be a string"},Oh=o=>{var s;return!((s=o.list)!=null&&s.length)||!o.watchVariable},Mh=(o,s)=>o instanceof FormData?o.get(s):o[s],Jd=(o,s)=>{if(Oh(o))return!1;Ih(o.list,o.watchVariable);const a=Mh(s,o.watchVariable);return typeof a!="string"?!1:o.list.includes(a)},qd=()=>new ri(403,"Forbidden"),Dh=(o,s)=>{if(typeof o!="number"||o<0)throw"The LimitRate throttle has to be a positive number";if(s&&typeof s!="string")throw"The LimitRate ID has to be a non-empty string"},Fh=async(o,s,a)=>{const f=Number(await a.get(o)||0);return s-Date.now()+f},Zd=async(o,s,a)=>{if(!s.throttle||!a)return!1;Dh(s.throttle,s.id);const f=s.id||o;return await Fh(f,s.throttle,a)>0?!0:(await a.set(f,Date.now().toString()),!1)},bd=()=>new ri(429,"Too Many Requests"),Ah=async(o,s,a,f)=>{const h=ta(f),w=h.publicKey||$e.publicKey,S=h.blockHeadless||$e.blockHeadless,_=h.storageProvider||$e.storageProvider,E={...$e.blockList,...h.blockList},R={...$e.limitRate,...h.limitRate};return S&&Gd(navigator)?Promise.reject(Xd()):(Yd(w,o,s),Lh(a),a&&Jd(E,a)?Promise.reject(qd()):await Zd(location.pathname,R,_)?Promise.reject(bd()):Kd("/api/v1.0/email/send",JSON.stringify({lib_version:"4.4.1",user_id:w,service_id:o,template_id:s,template_params:a}),{"Content-type":"application/json"}))},$h=o=>{if(!o||o.nodeName!=="FORM")throw"The 3rd parameter is expected to be the HTML form element or the style selector of the form"},Uh=o=>typeof o=="string"?document.querySelector(o):o,Vh=async(o,s,a,f)=>{const h=ta(f),w=h.publicKey||$e.publicKey,S=h.blockHeadless||$e.blockHeadless,_=$e.storageProvider||h.storageProvider,E={...$e.blockList,...h.blockList},R={...$e.limitRate,...h.limitRate};if(S&&Gd(navigator))return Promise.reject(Xd());const I=Uh(a);Yd(w,o,s),$h(I);const z=new FormData(I);return Jd(E,z)?Promise.reject(qd()):await Zd(location.pathname,R,_)?Promise.reject(bd()):(z.append("lib_version","4.4.1"),z.append("service_id",o),z.append("template_id",s),z.append("user_id",w),Kd("/api/v1.0/email/send-form",z))},Bh={init:Th,send:Ah,sendForm:Vh,EmailJSResponseStatus:ri};function Hh(){const[o,s]=fe.useState(""),[a,f]=fe.useState(""),[h,w]=fe.useState(""),[S,_]=fe.useState(""),E=fe.useRef(null),{ref:R,inView:I}=dr({threshold:.1});function z(L){if(L.preventDefault(),o===""||a===""||S===""){alert("Preencha todos os campos");return}const V={name:o,email:a,telefone:h,message:S};Bh.send("service_za4aivk","template_x61afyb",V,"jkB5CHRiHgFKdHByN").then(Y=>{console.log("EMAIL ENVIADO!",Y.status,Y.text),s(""),f(""),w(""),_("")}).catch(Y=>{console.log("Erro: ",Y)})}return c.jsxs(Ph,{id:"contact",ref:E,onSubmit:z,children:[c.jsx(Rh,{className:`title ${I?"animate-left":""}`,ref:R,children:c.jsx("h2",{children:"Entre em Contato"})}),c.jsxs("div",{className:`contact-local ${I?"animate-jump":""}`,ref:R,children:[c.jsxs("div",{className:"inputs",children:[c.jsxs("div",{children:[c.jsxs(Ms,{children:["Nome ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"text",placeholder:"Nome e sobremone",id:"inputName",onChange:L=>s(L.target.value),value:o})]}),c.jsxs("div",{children:[c.jsxs(Ms,{children:["E-mail ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"text",placeholder:"E-mail para contato",id:"inputEmail",onChange:L=>f(L.target.value),value:a})]}),c.jsxs("div",{children:[c.jsxs(Ms,{children:["Telefone ",c.jsx("span",{children:"*"})]}),c.jsx(Ds,{type:"tel",placeholder:"(00) 00000-0000",id:"inputTel",onChange:L=>w(L.target.value),value:h})]})]}),c.jsx("div",{className:"text-area",children:c.jsx("textarea",{name:"message",placeholder:"Digite aqui a sua mensagem...",onChange:L=>_(L.target.value),value:S})})]}),c.jsxs("div",{className:`submit-button ${I?"animate-jump":""}`,ref:R,children:[c.jsx(Lt,{children:c.jsx("button",{className:"button-one to-send",type:"submit",children:"Enviar"})}),c.jsx("p",{children:"© 2024. Todos os direitos reservados."})]})]})}const Wh=ze.nav`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -739,7 +753,7 @@ Error generating stack: `+l.message+`
       background: linear-gradient(180deg,
           rgba(41, 166, 164, 1) 0%, 
           rgba(16, 32, 50, 0.96) 100%); 
-      border: 1px solid rgba(255, 255, 255, 0.5);
+      border: none;
 
       opacity: 0;
       transform: translateX(100%);
@@ -985,7 +999,7 @@ Error generating stack: `+l.message+`
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-top: 130px;
+  padding-top: 110px;
   padding-bottom: 50px;
 
   .hover{
@@ -1098,7 +1112,7 @@ Error generating stack: `+l.message+`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 150px;
 
     .my-projects {
@@ -1106,7 +1120,7 @@ Error generating stack: `+l.message+`
       gap: 150px;
       grid-template-columns: 1fr;
       grid-template-rows: 360px;
-      margin-top: -150px;
+      margin-top: -170px;
       opacity: 1;
       transform: scale(1);
 
@@ -1257,9 +1271,12 @@ Error generating stack: `+l.message+`
 
     img {
 
+      width: 85px;
+
       &.docker {
-          margin-top: 10px;
-          margin-bottom: 10px;
+          width: 70px;
+          margin-top: 8px;
+          margin-bottom: 8px;
         }
     }
     .icons-tech {
@@ -1268,12 +1285,14 @@ Error generating stack: `+l.message+`
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: -50px;
 
       .icons-top {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
       }
       
       .icons-bottom {
@@ -1281,6 +1300,7 @@ Error generating stack: `+l.message+`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
       }
     }
   }
