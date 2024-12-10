@@ -72,6 +72,8 @@ function ContactForm() {
         <Buttons>
           <button className='button-one to-send' type="submit">Enviar</button>
         </Buttons>
+
+        <p>&copy; 2024. Todos os direitos reservados.</p>
       </div>
     </Form>
   )

@@ -95,7 +95,7 @@ export const Experiencias = styled.section`
     align-items: center;
     gap: 8px;
     z-index: 100;
-    margin-top: -20px;
+    margin-top: -18px;
 
     .page1, .page2, .page3{
       width: 25px;
@@ -115,8 +115,14 @@ export const Experiencias = styled.section`
     padding-top: 100px;
     
     .carousel-navigation {
-      gap: 275px;
+      gap: 305px;
       opacity: 1;
+
+      button {
+        img {
+          width: 35px;
+        }
+      }
     }
   }
 `;
@@ -182,12 +188,13 @@ export const ExpertiseInfo = styled.div`
 
   @media screen and (max-width: 540px) {
     .treinador, .developer{
-      width: 22em;
-      height: 680px;
+      width: 23em;
+      height: 610px;
 
       h3 {
         font-size: 26px;
         text-align: center;
+        margin-top: 10px;
       } 
 
       h4 {
@@ -195,19 +202,20 @@ export const ExpertiseInfo = styled.div`
       }
 
       p {
-        width: 19.37em;
+        width: 21em;
         font-size: 14px;
+        margin-top: -15px;
       }
     }
 
     .treinador.active {
       opacity: 1;
-      margin-left: 392px;
+      margin-left: 408px;
     }
 
     .developer.active {
       opacity: 1;
-      margin-left: -392px;
+      margin-left: -408px;
     }
   }
 `;

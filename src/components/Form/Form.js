@@ -5,7 +5,7 @@ export const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 130px;
+  padding-top: 110px;
   padding-bottom: 100px;
 
   .contact-local {
@@ -46,8 +46,8 @@ export const Form = styled.form`
       line-height: 20px;
 
       width: 500px;
-      height: 213px;
-      margin-top: 14px;
+      height: 227px;
+      margin-top: 15px;
       padding: 5px 10px 0 10px;
     }
   }
@@ -61,6 +61,12 @@ export const Form = styled.form`
       opacity: 1;
       transform: scale(1);
     }
+
+    p {
+      opacity: 0.5;
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
   .to-send {
@@ -71,7 +77,7 @@ export const Form = styled.form`
 
   @media screen and (max-width: 540px) {
     display: flex;
-    padding-top: 115px;
+    padding-top: 100px;
 
     .contact-local {
       display: flex;

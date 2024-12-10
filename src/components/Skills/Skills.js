@@ -105,9 +105,12 @@ export const Habilidades = styled.section`
 
     img {
 
+      width: 85px;
+
       &.docker {
-          margin-top: 10px;
-          margin-bottom: 10px;
+          width: 70px;
+          margin-top: 8px;
+          margin-bottom: 8px;
         }
     }
     .icons-tech {
@@ -116,12 +119,14 @@ export const Habilidades = styled.section`
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: -50px;
 
       .icons-top {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
       }
       
       .icons-bottom {
@@ -129,6 +134,7 @@ export const Habilidades = styled.section`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
       }
     }
   }

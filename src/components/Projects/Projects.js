@@ -6,7 +6,7 @@ export const Projects = styled.section`
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-top: 130px;
+  padding-top: 110px;
   padding-bottom: 50px;
 
   .hover{
@@ -119,7 +119,7 @@ export const Projects = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 150px;
 
     .my-projects {
@@ -127,7 +127,7 @@ export const Projects = styled.section`
       gap: 150px;
       grid-template-columns: 1fr;
       grid-template-rows: 360px;
-      margin-top: -150px;
+      margin-top: -170px;
       opacity: 1;
       transform: scale(1);
 

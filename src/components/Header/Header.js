@@ -142,7 +142,7 @@ export const SideBar = styled.aside`
       background: linear-gradient(180deg,
           rgba(41, 166, 164, 1) 0%, 
           rgba(16, 32, 50, 0.96) 100%); 
-      border: 1px solid rgba(255, 255, 255, 0.5);
+      border: none;
 
       opacity: 0;
       transform: translateX(100%);

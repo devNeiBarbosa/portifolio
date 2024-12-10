@@ -46,8 +46,8 @@ function InfoExpertise() {
               <p>
                 Amplo domínio de técnicas avançadas de periodização e adaptação de treinos para diferentes níveis, garantindo eficiência e segurança.
                 Experiência prática no acompanhamento de alunos em academias e consultorias online, com foco na evolução contínua e no alcance de
-                metas dentro de prazos definidos. Além disso, sou atleta de fisiculturismo, o que me proporciona conhecimento aprofundado teórico e
-                prático sobre hipertrofia, emagrecimento e performance.
+                metas dentro de prazos definidos. Além disso, sou atleta de fisiculturismo, o que me proporciona conhecimento aprofundado sobre hipertrofia, 
+                emagrecimento e performance.
               </p>
             </div>
 
