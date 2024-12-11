@@ -50,4 +50,28 @@ export const Buttons = styled.div`
       transform: scale(0.9);
     }
   }
+
+  @media screen and (max-width: 540px) {
+
+    .button-one {
+      &:hover {
+        background: linear-gradient(180deg,
+          rgba(41, 166, 164, 1) 0%, 
+          rgba(16, 32, 50, 1) 100%);
+        border: none;
+        transition: none;
+        transform: none;
+      }
+    }
+
+    .button-two {     
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        transition: none;
+        transform: none;
+      }
+    }
+  }
 `;
