@@ -48,7 +48,23 @@ export const Form = styled.form`
       width: 500px;
       height: 227px;
       margin-top: 15px;
-      padding: 5px 10px 0 10px;
+      padding: 5px 10px 5px 10px;
+
+      resize: none;
+
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+        margin: 5px;
+      }
     }
   }
 
