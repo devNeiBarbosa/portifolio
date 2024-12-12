@@ -34,7 +34,7 @@ function MainInfo() {
           Este espaço foi criado com carinho para apresentar minhas habilidades e projetos. Aproveite a visita!</p>
 
         <Buttons className='buttons'>
-          <button className='button-one'><a href='https://drive.google.com/file/d/1IcwSVHE6IwQ9TQOZAcaxNtst_AxqidN9/view?usp=drive_link' target='_blank'>Baixar CV</a></button>
+          <button className='button-one'><a href='https://drive.google.com/file/d/1IcwSVHE6IwQ9TQOZAcaxNtst_AxqidN9/view?usp=sharing' target='_blank'>Baixar CV</a></button>
           <button className='button-two'><a href='#projects' onClick={()=> scrollProjects}>Meus Projetos</a></button>
         </Buttons>
 
